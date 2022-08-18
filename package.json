@@ -2,7 +2,7 @@
   "name": "@ckeditor/ckeditor5-build-classic",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": true,
   "main": "./build/ckeditor.js",
@@ -38,14 +38,15 @@
     "@ckeditor/ckeditor5-theme-lark": "^35.0.1",
     "@ckeditor/ckeditor5-typing": "^35.0.1",
     "@ckeditor/ckeditor5-word-count": "^35.0.1",
-    "css-loader": "^5.2.7",
+    "@ckeditor/ckeditor5-html-support": "^35.0.1",
+    "css-loader": "5",
     "postcss": "^8.4.14",
-    "postcss-loader": "^4.3.0",
-    "raw-loader": "^4.0.2",
-    "style-loader": "^2.0.0",
+    "postcss-loader": "4",
+    "raw-loader": "4",
+    "style-loader": "2",
     "terser-webpack-plugin": "^4.2.3",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack": "5",
+    "webpack-cli": "4"
   },
   "scripts": {
     "build": "webpack --mode production"
